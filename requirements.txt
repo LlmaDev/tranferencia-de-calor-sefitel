@@ -1,0 +1,4 @@
+# requirements.txt
+numpy>=1.21.0
+matplotlib>=3.5.0
+click>=8.0.0
