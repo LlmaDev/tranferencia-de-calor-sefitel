@@ -1,0 +1,71 @@
+{
+  "materiais": [
+    {
+      "id": 1,
+      "nome": "Água",
+      "calor_especifico": 4186,
+      "unidade": "J/(kg·K)",
+      "descricao": "Água líquida, excelente para armazenar calor",
+      "densidade": 1000,
+      "aplicacoes": ["Bebidas", "Sistemas de refrigeração", "Aquecimento"]
+    },
+    {
+      "id": 2,
+      "nome": "Alumínio",
+      "calor_especifico": 900,
+      "unidade": "J/(kg·K)",
+      "descricao": "Metal leve com boa condutividade térmica",
+      "densidade": 2700,
+      "aplicacoes": ["Panelas", "Dissipadores de calor", "Construção"]
+    },
+    {
+      "id": 3,
+      "nome": "Cobre",
+      "calor_especifico": 385,
+      "unidade": "J/(kg·K)",
+      "descricao": "Excelente condutor térmico e elétrico",
+      "densidade": 8960,
+      "aplicacoes": ["Fios elétricos", "Tubulações", "Trocadores de calor"]
+    },
+    {
+      "id": 4,
+      "nome": "Ferro",
+      "calor_especifico": 450,
+      "unidade": "J/(kg·K)",
+      "descricao": "Metal resistente, usado em construção",
+      "densidade": 7874,
+      "aplicacoes": ["Estruturas", "Ferramentas", "Máquinas"]
+    },
+    {
+      "id": 5,
+      "nome": "Vidro",
+      "calor_especifico": 840,
+      "unidade": "J/(kg·K)",
+      "descricao": "Material transparente, isolante térmico moderado",
+      "densidade": 2500,
+      "aplicacoes": ["Janelas", "Recipientes", "Laboratório"]
+    }
+  ],
+  "coeficientes_conveccao": {
+    "ar_parado": {
+      "valor": 10,
+      "descricao": "Convecção natural com ar parado",
+      "faixa": "5-25 W/m²·K"
+    },
+    "ar_leve": {
+      "valor": 25,
+      "descricao": "Ar com movimento leve (brisa)",
+      "faixa": "10-50 W/m²·K"
+    },
+    "ventilador": {
+      "valor": 100,
+      "descricao": "Ar forçado por ventilador",
+      "faixa": "50-250 W/m²·K"
+    },
+    "agua_parada": {
+      "valor": 50,
+      "descricao": "Convecção natural com água",
+      "faixa": "20-100 W/m²·K"
+    }
+  }
+}
